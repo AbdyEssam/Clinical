@@ -76,7 +76,7 @@ function Report({location}){
                                     <tr>
                                         <td><b>Medicines name</b></td>
                                         <td><b>Dosage</b></td>
-                                        <td style={{backgroundColor:'#5e337a', color:'#FFF', cursor: 'pointer'}} onClick={addRow}>Add Row</td>
+                                        <td style={{backgroundColor:'#757575', color:'#FFF', cursor: 'pointer'}} onClick={addRow}>Add Row</td>
                                     </tr>
                                     {meds.map((med)=>
                                     med.name&&med.dose?

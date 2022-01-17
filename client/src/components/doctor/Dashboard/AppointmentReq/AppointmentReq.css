@@ -78,7 +78,7 @@ body{
 }
 
 .containerApp {
-    background-color: #14001E;
+    background-image: linear-gradient(to left, #2CDDFF , #6666FF);
     display: grid;
     grid-template-columns: 850px 500px;
     margin-left: 120px;
@@ -91,7 +91,7 @@ body{
 }
 
 .contapp {
-    background-color: #2B1038;
+    background-color: #202020;
     
 }
 

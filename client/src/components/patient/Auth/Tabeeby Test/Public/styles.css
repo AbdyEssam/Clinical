@@ -106,7 +106,7 @@ input:hover, input:focus{
 }
 
 input::placeholder{
-    color: rgba(140, 97, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     font-size: 18px;
 }
 

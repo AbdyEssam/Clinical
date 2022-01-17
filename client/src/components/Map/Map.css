@@ -16,10 +16,10 @@
 #searchBox {
     width: 615px;
     height: 35px;
-    background-color: #553066;
-    border: none;
+    background-color: #ffffff;
+    border:2px solid #000000;
     padding: 0.5em;
-    color: #9568aa;
+    color: #757575;
 }
 
 .fa-search{
@@ -35,17 +35,17 @@
 ::-webkit-input-placeholder { /* Edge */
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #85599A;
+    color: #757575;
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #85599A;
+    color: #757575;
   }
   
   ::placeholder {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    color: #9568aa;
+    color: #757575;
   }

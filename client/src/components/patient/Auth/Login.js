@@ -5,7 +5,7 @@ import { AUTH } from '../../../constants/actionTypes';
 import {useDispatch} from 'react-redux'
 import { useHistory } from 'react-router-dom';
 import "./Login.css";
-import logo from "./Auth-public/title.png";
+import logo from "./Auth-public/logo.png";
 import user_booking from "./Auth-public/User booking.png";
 import user_dashboard from "./Auth-public/User Dashboard.png";
 import user_report from "./Auth-public/User View Report.png";

@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #14001E;
+    background-image: linear-gradient(to left, #2CDDFF , #6666FF);
     color: white;
     /* overflow: hidden !important; */
 }
@@ -24,7 +24,7 @@ body{
 }
 
 .sidebar{
-    background-color: #2B1038 !important;
+    background-color: #6666FF !important;
     height: 100vh;
     position: absolute;
     width: 80px;
@@ -32,23 +32,23 @@ body{
 }
 
 .fa-user{
-    color: #FF9B06;
+    color: #ffffff;
     size: 10px;
     padding-left:30px;
     padding-top: 30px;
 }
 .fa-plus{
-    color:#0085FF;
+    color:#ffffff;
     padding-left:30px;
     padding-top: 30px;
 }
 .fa-robot{
-    color:#EEBA00;
+    color:#ffffff;
     padding-left:25px;
     padding-top: 30px;
 }
 .fa-tasks{
-    color:#3beb75;
+    color:#ffffff;
     padding-left:25px;
     padding-top: 30px;
 }
@@ -58,7 +58,7 @@ body{
 }
 
 .fa-sign-out-alt {
-    color: red;
+    color: rgb(255, 255, 255);
     margin: 1.5em 1em -1em 0;
     font-size: 1.5em;
     cursor: pointer;
@@ -83,7 +83,7 @@ body{
 }
 
 .containerPatProf {
-    background-color: #14001E;
+    background-image: linear-gradient(to left, #2CDDFF , #6666FF);;
     display: grid;
     grid-template-columns: 720px 640px;
     padding: 1em;
@@ -95,7 +95,7 @@ body{
 }
 
 .cont_past_app {
-    background-color: #2B1038;
+    background-color: #202020;
     height: 720px;
     overflow: auto;
     
@@ -118,7 +118,7 @@ body{
 }
 
 .cont_profile{
-    background-color: #2B1038;
+    background-color: #202020;
     height: 720px;
     overflow:auto;
     text-align: left;
@@ -141,7 +141,7 @@ body{
 .past_app_view {
     height: 220px;
     width: 165px;
-    background-color: #553066;
+    background-color: #202020;
     border-radius: 7px;
     
 
@@ -197,16 +197,16 @@ body{
 }
 
 .symptom-box {
-    background-color: #553066;
+    background-color: #ffffff;
     border: none;
     border-radius: 5px;
     margin-top: 5px;
     padding: 0.5em;
-    color: white;
+    color: #202020;
 }
 
 .pattext{
-    color: #B390C3;
+    color: #6666FF;
     font-weight: 700;
 }
 
@@ -253,9 +253,9 @@ body{
 }
 
 #illdrop{
-    background-color: #553066;
+    background-color: #ffffff;
     border: none;
-    color: white;
+    color: #202020;
     height: 30px;
     margin-top: 10px;
     border-radius: 5px;

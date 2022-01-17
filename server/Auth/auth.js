@@ -564,7 +564,7 @@ app.post("/createReport",async (req,res)=>{
                     html: "Greetings "+pat.Pat_Name+" your appointment report for Appointment ID "+req.body.data.Appt_ID+" is attached below",
                     attachments: [{
                         filename: "R"+id+".pdf",
-                        path: "D:\\Dev\\Tabeeby\\server\\"+"R"+id+".pdf",
+                        path: "/Users/geek/Clinical-Before-Discussion/server/"+"R"+id+".pdf",
                         contentType: 'application/pdf'
                     }]
                 };

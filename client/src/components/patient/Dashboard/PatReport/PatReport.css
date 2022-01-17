@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #14001E;
+    background-image: linear-gradient(to left, #2CDDFF , #6666FF);
     color: white;
     /* overflow: hidden !important; */
 }
@@ -24,7 +24,7 @@ body{
 }
 
 .sidebar{
-    background-color: #2B1038 !important;
+    background-color: #202020 !important;
     height: 100vh;
     position: absolute;
     width: 80px;
@@ -32,18 +32,18 @@ body{
 }
 
 .fa-user{
-    color: #FF9B06;
+    color: #ffffff;
     size: 10px;
     padding-left:30px;
     padding-top: 30px;
 }
 .fa-plus{
-    color:#0085FF;
+    color:#ffffff;
     padding-left:30px;
     padding-top: 30px;
 }
 .fa-robot{
-    color:#EEBA00;
+    color:#ffffff;
     padding-left:25px;
     padding-top: 30px;
 }
@@ -53,7 +53,7 @@ body{
 }
 
 .fa-sign-out-alt {
-    color: red;
+    color: rgb(255, 255, 255);
     margin: 1.5em 1em -1em 0;
     font-size: 1.5em;
     cursor: pointer;
@@ -78,7 +78,7 @@ body{
 }
 
 .containerPatRep {
-    background-color: #14001E;
+    background-image: linear-gradient(to left, #2CDDFF , #6666FF);
     display: grid;
     grid-template-columns: 800px 560px;
     padding: 1em;
@@ -90,7 +90,7 @@ body{
 }
 
 .contpat {
-    background-color: #2B1038;
+    background-color: #202020;
     height: 630px;
     /* overflow:auto; */
 }
@@ -109,7 +109,7 @@ body{
 } */
 
 .contc1{
-    background-color: #2B1038;
+    background-color: #202020;
     height: 630px;
     overflow: auto !important;
     text-align: left;
@@ -130,7 +130,7 @@ body{
 .app_view {
     height: 180px;
     width: 150px;
-    background-color: #553066;
+    background-color: #202020;
     border-radius: 7px;
     text-align: center;
     font-weight: bold;

@@ -1,7 +1,7 @@
 .appointmentCard-p{
     height: 200px;
     width: 150px;
-    background-color: #553066;
+    background-color: #6666FF;
     margin-top: 10px;
     border-radius: 10px;
     font-size: 90% !important;
@@ -17,7 +17,7 @@
 
 .button-p{
     color: white;
-    background-color: #b583ce !important;
+    background-color: #7ED991 !important;
     /* margin-right: -100%; */
     padding: 1px;
     padding-top: 3.5px;

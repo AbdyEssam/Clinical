@@ -98,7 +98,7 @@ input{
     border-radius: 5px;
     margin-bottom: 10px !important;
     outline: none;
-    color: #75428D;
+    color: #000000;
 }
 
 input:hover, input:focus{
@@ -106,7 +106,7 @@ input:hover, input:focus{
 }
 
 input::placeholder{
-    color: rgba(140, 97, 255, 0.8);
+    color: black;
     font-size: 18px;
 }
 
@@ -242,7 +242,7 @@ label[for=passcode]{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #75428D;
+    color: #000000;
 }
 
 .admin-signup-form input, .admin-signup-form button, .admin-login-form input, .admin-login-form button{

@@ -95,15 +95,15 @@ body{
     /* grid-template-rows: 1fr 1fr; */
     grid-row-gap:15px;
     grid-column-gap: 20px;
-    background-color: #14001E;
+    background-image: linear-gradient(to left, #2CDDFF , #6666FF);
     padding: 0.5em;
     margin-left: 100px;
 }
 
 .grid-container-doc > div{
-    background-color:#2B1038;
+    background-color:#202020;
     padding:1em 1em 0em;
-    color: #85599A;
+    color: #ffffff;
     /* fzont-size: 1.5rem;; */
     font-weight: 600;
 }

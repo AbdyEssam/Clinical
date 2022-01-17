@@ -21,33 +21,33 @@ body{
     position: absolute;
     width: 80px;
     height: 100%;
-    background: #553066;
+    background: #6666FF;
 }
 
 .sidebar{
-    background-color: #2B1038 !important;
+    background-color: #6666FF !important;
 }
 
 .fa-home{
-    color: #dfcd2d;
+    color: #ffffff;
     size: 10px;
     padding-left:25px;
     padding-top: 30px;
 }
 
 .fa-user{
-    color: #FF9B06;
+    color: #ffffff;
     size: 10px;
     padding-left:30px;
     padding-top: 30px;
 }
 .fa-plus{
-    color:#0085FF;
+    color:#ffffff;
     padding-left:30px;
     padding-top: 30px;
 }
 .fa-robot{
-    color:#EEBA00;
+    color:#ffffff;
     padding-left:25px;
     padding-top: 30px;
 }
@@ -57,7 +57,7 @@ body{
 }
 
 .fa-sign-out-alt {
-    color: red;
+    color: rgb(255, 255, 255);
     margin: 1.5em 1em -1em 0;
     font-size: 1.5em;
     cursor: pointer;
@@ -97,16 +97,16 @@ body{
     /* grid-template-rows: 1fr 1fr;  */
     grid-row-gap:15px;
     grid-column-gap: 20px;
-    background-color: #14001E;
+    background-image: linear-gradient(to left, #2CDDFF , #6666FF);;
     padding: 1em;
     margin-left: 100px;
     /* margin-bottom: 20%; */
 }
 
 .grid-container > div{
-    background-color:#2B1038;
+    background-color:#ffffff;
     padding:1em 1em 0em;
-    color: #85599A;
+    color: #757575;
     font-size: 1.0rem;;
     font-weight: 600;
 }

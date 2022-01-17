@@ -20,26 +20,26 @@ body{
     position: absolute;
     width: 80px;
     height: 100%;
-    background: #553066;
+    background: #6666FF;
 }
 
 .sidebar{
-    background-color: #2B1038 !important;
+    background-color: #6666FF !important;
 }
 
 .fa-user{
-    color: #FF9B06;
+    color: #ffffff;
     size: 10px;
     padding-left:30px;
     padding-top: 30px;
 }
 .fa-plus{
-    color:#0085FF;
+    color:#ffffff;
     padding-left:30px;
     padding-top: 30px;
 }
 .fa-robot{
-    color:#EEBA00;
+    color:#ffffff;
     padding-left:25px;
     padding-top: 30px;
 }
@@ -50,7 +50,7 @@ body{
 }
 
 .fa-tasks{
-    color:#3beb75;
+    color:#ffffff;
     padding-left:25px;
     padding-top: 30px;
 }
@@ -60,7 +60,7 @@ body{
 }
 
 .fa-sign-out-alt {
-    color: red;
+    color: rgb(255, 255, 255);
     margin: 1.5em 1em -1em 0;
     font-size: 1.5em;
     cursor: pointer;
@@ -96,15 +96,15 @@ body{
     grid-template-columns: 1fr 1fr;
     /* grid-template-rows: 1fr 1fr; */
     grid-gap:30px;
-    background-color: #14001E;
+    background-image: linear-gradient(to left, #2CDDFF , #6666FF);
     padding: 1em;
     margin-left: 100px;
 }
 
 .grid-container-adm > div{
-    background-color:#2B1038;
+    background-color:#FFFFFF;
     padding:1em 1em 0em;
-    color: #85599A;
+    color: #757575;
     /* font-size: 1.5rem;; */
     font-weight: 600;
 }
@@ -114,6 +114,8 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
 }
+
+
 
 .addDoc{
     grid-row-start: 1;
@@ -135,13 +137,13 @@ body{
     margin-bottom: 10px ;
     margin-top: 20px ;
     margin-left: 25px;
-    border: 2.5px solid #75428D;
+    border: 2.5px solid #202020;
     border-radius: 0px;
     padding: 0.5em;
     font-size: 0.9rem;
     float: left;
-    background: #2B1038;
-    color: #b78eca;
+    background: #FFFFFF;
+    color: #202020;
 }
 
 .addDocBut {
